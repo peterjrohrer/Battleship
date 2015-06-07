@@ -1,0 +1,5 @@
+# begin LFP file C:\Users\Peter\Desktop\New folder\battleship\battleship.lfp
+designfile battleship.v
+parttype xc2c64a-vq44-7
+bus_delimiter 0;
+set_busdelim_onsave 1;
