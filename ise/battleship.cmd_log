@@ -85,3 +85,4 @@ xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.
 xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
 xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
 xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 

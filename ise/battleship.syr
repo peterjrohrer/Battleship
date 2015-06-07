@@ -89,7 +89,7 @@ ERROR:HDLCompilers:26 - "battleship.v" line 50 unexpected token: 'EOF'
 Analysis of file <"battleship.prj"> failed.
 --> 
 
-Total memory usage is 232588 kilobytes
+Total memory usage is 232716 kilobytes
 
 Number of errors   :    6 (   0 filtered)
 Number of warnings :    2 (   0 filtered)
