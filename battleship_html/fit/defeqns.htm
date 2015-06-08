@@ -14,52 +14,52 @@ N_PZ_25 <= ((col0 AND NOT count0)
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT col2 AND count2));
 </td></tr><tr><td>
 </td></tr><tr><td>
-outG(0) <= '0';
+outG[0] <= (NOT row2 AND NOT row1 AND NOT row0 AND NOT N_PZ_25);
 </td></tr><tr><td>
 </td></tr><tr><td>
-outG(1) <= '0';
+outG[1] <= (NOT row2 AND NOT row1 AND row0 AND NOT N_PZ_25);
 </td></tr><tr><td>
 </td></tr><tr><td>
-outG(2) <= '0';
+outG[2] <= (NOT row2 AND row1 AND NOT row0 AND NOT N_PZ_25);
 </td></tr><tr><td>
 </td></tr><tr><td>
-outG(3) <= '0';
+outG[3] <= (NOT row2 AND row1 AND row0 AND NOT N_PZ_25);
 </td></tr><tr><td>
 </td></tr><tr><td>
-outG(4) <= '0';
+outG[4] <= (row2 AND NOT row1 AND NOT row0 AND NOT N_PZ_25);
 </td></tr><tr><td>
 </td></tr><tr><td>
-outG(5) <= '0';
+outG[5] <= (row2 AND NOT row1 AND row0 AND NOT N_PZ_25);
 </td></tr><tr><td>
 </td></tr><tr><td>
-outG(6) <= '0';
+outG[6] <= (row2 AND row1 AND NOT row0 AND NOT N_PZ_25);
 </td></tr><tr><td>
 </td></tr><tr><td>
-outG(7) <= '0';
+outG[7] <= (row2 AND row1 AND row0 AND NOT N_PZ_25);
 </td></tr><tr><td>
 </td></tr><tr><td>
-outR(0) <= (NOT row2 AND NOT row1 AND NOT row0 AND NOT N_PZ_25);
+outR[0] <= '0';
 </td></tr><tr><td>
 </td></tr><tr><td>
-outR(1) <= (NOT row2 AND NOT row1 AND row0 AND NOT N_PZ_25);
+outR[1] <= '0';
 </td></tr><tr><td>
 </td></tr><tr><td>
-outR(2) <= (NOT row2 AND row1 AND NOT row0 AND NOT N_PZ_25);
+outR[2] <= '0';
 </td></tr><tr><td>
 </td></tr><tr><td>
-outR(3) <= (NOT row2 AND row1 AND row0 AND NOT N_PZ_25);
+outR[3] <= '0';
 </td></tr><tr><td>
 </td></tr><tr><td>
-outR(4) <= (row2 AND NOT row1 AND NOT row0 AND NOT N_PZ_25);
+outR[4] <= '0';
 </td></tr><tr><td>
 </td></tr><tr><td>
-outR(5) <= (row2 AND NOT row1 AND row0 AND NOT N_PZ_25);
+outR[5] <= '0';
 </td></tr><tr><td>
 </td></tr><tr><td>
-outR(6) <= (row2 AND row1 AND NOT row0 AND NOT N_PZ_25);
+outR[6] <= '0';
 </td></tr><tr><td>
 </td></tr><tr><td>
-outR(7) <= (row2 AND row1 AND row0 AND NOT N_PZ_25);
+outR[7] <= '0';
 </td></tr><tr><td>
 </td></tr><tr><td>
 Register Legend:

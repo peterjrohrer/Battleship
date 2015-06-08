@@ -5,22 +5,26 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">fire</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="error" file="Xst" num="888" delta="new" >&quot;<arg fmt="%s" index="1">battleship.v</arg>&quot; line <arg fmt="%d" index="2">34</arg>: For statement is only supported when the new step evaluation is an assignment to the signal used in the initialization part.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rom0</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="error" file="Xst" num="891" delta="new" >&quot;<arg fmt="%s" index="1">battleship.v</arg>&quot; line <arg fmt="%d" index="2">34</arg>: For Statement is only supported when the new step evaluation is constant increment or decrement of the loop variable.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rom1</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="error" file="Xst" num="2634" delta="new" >&quot;<arg fmt="%s" index="1">battleship.v</arg>&quot; line <arg fmt="%d" index="2">34</arg>: For loop stop condition should depend on loop variable or be static.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rom2</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="warning" file="Xst" num="2319" delta="new" >&quot;<arg fmt="%s" index="1">battleship.v</arg>&quot; line <arg fmt="%d" index="2">21</arg>: Signal <arg fmt="%s" index="3">ships</arg> in initial block is partially initialized. The initialization will be ignored.
 </msg>
 
-<msg type="warning" file="Xst" num="1306" delta="new" >Output &lt;<arg fmt="%s" index="1">rowD</arg>&gt; is never assigned.
+<msg type="error" file="Xst" num="2634" delta="new" >&quot;<arg fmt="%s" index="1">battleship.v</arg>&quot; line <arg fmt="%d" index="2">97</arg>: For loop stop condition should depend on loop variable or be static.
 </msg>
 
-<msg type="warning" file="Xst" num="1306" delta="new" >Output &lt;<arg fmt="%s" index="1">data</arg>&gt; is never assigned.
+<msg type="error" file="Xst" num="2634" delta="new" >&quot;<arg fmt="%s" index="1">battleship.v</arg>&quot; line <arg fmt="%d" index="2">119</arg>: For loop stop condition should depend on loop variable or be static.
+</msg>
+
+<msg type="warning" file="Xst" num="905" delta="new" >&quot;<arg fmt="%s" index="1">battleship.v</arg>&quot; line <arg fmt="%d" index="2">94</arg>: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;col0&gt;, &lt;count0&gt;, &lt;col1&gt;, &lt;count1&gt;, &lt;col2&gt;, &lt;count2&gt;, &lt;hits&gt;, &lt;row&gt;, &lt;col&gt;, &lt;misses&gt;, &lt;fire&gt;, &lt;index&gt;</arg>
 </msg>
 
 </messages>

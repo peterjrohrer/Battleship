@@ -1,0 +1,29 @@
+Command line:
+   battleship_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58344
+
+Sun Jun 07 21:10:57 2015
+
+
+ Elaboration Time: 0.015601 sec
+
+ Current Memory Usage: 501.789 Meg
+
+ Total Signals          : 23
+ Total Nets             : 39
+ Total Signal Drivers   : 7
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 28
+ Total Scalar Nets and Variables : 487
+Total Line Count : 91
+
+ Total Simulation Time: 0.405603 sec
+
+ Current Memory Usage: 501.789 Meg
+
+Sun Jun 07 21:13:56 2015
+

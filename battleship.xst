@@ -14,7 +14,7 @@ run
 -netlist_hierarchy As_Optimized
 -rtlview Yes
 -hierarchy_separator /
--bus_delimiter <>
+-bus_delimiter []
 -case Maintain
 -verilog2001 YES
 -fsm_extract YES -fsm_encoding Auto

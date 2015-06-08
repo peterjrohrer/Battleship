@@ -14,3 +14,125 @@ XSLTProcess battleship_build.xml
 tsim -intstyle ise battleship battleship.nga 
 taengine -intstyle ise -f battleship -w --format html1 -l battleship_html/tim/timing_report.htm 
 hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc battleship.ucf -p xc2c64a-VQ44-7 "battleship.ngc" battleship.ngd  
+cpldfit -intstyle ise -p xc2c64a-7-VQ44 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 battleship.ngd 
+XSLTProcess battleship_build.xml 
+tsim -intstyle ise battleship battleship.nga 
+hprep6 -s IEEE1149 -i battleship 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 
+xst -intstyle ise -ifn "C:/Users/Peter/Desktop/New folder/battleship/battleship.xst" -ofn "C:/Users/Peter/Desktop/New folder/battleship/battleship.syr" 

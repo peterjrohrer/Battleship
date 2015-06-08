@@ -1,7 +1,7 @@
 Release 8.1i - Fit P.40xd
 Copyright(c) 1995-2003 Xilinx Inc. All rights reserved
 
- 6- 7-2015  5:44PM
+ 6- 7-2015  9:17PM
 
 NOTE: This file is designed to be imported into a spreadsheet program
 such as Microsoft Excel for viewing, printing and sorting. The comma ','
@@ -18,12 +18,12 @@ Pinout by Pin Number:
 
 -----,-----,-----,-----,-----,-----,-----,-----,-----,-----,
 Pin Number,Signal Name,Pin Usage,Pin Name,Direction,IO Standard,IO Bank Number,{blank},Slew Rate,Termination,{blank},Voltage,Constraint,
-P1,outR<4>,O,I/O/GCK2,OUTPUT,LVCMOS18,1,,FAST,,,,
-P2,outR<3>,O,I/O,OUTPUT,LVCMOS18,1,,FAST,,,,
-P3,outR<2>,O,I/O,OUTPUT,LVCMOS18,1,,FAST,,,,
+P1,outR[4],O,I/O/GCK2,OUTPUT,LVCMOS18,1,,FAST,,,,
+P2,outR[3],O,I/O,OUTPUT,LVCMOS18,1,,FAST,,,,
+P3,outR[2],O,I/O,OUTPUT,LVCMOS18,1,,FAST,,,,
 P4,GND,,GND,,,,,,,,,,
-P5,outR<1>,O,I/O,OUTPUT,LVCMOS18,1,,FAST,,,,
-P6,outR<0>,O,I/O,OUTPUT,LVCMOS18,1,,FAST,,,,
+P5,outR[1],O,I/O,OUTPUT,LVCMOS18,1,,FAST,,,,
+P6,outR[0],O,I/O,OUTPUT,LVCMOS18,1,,FAST,,,,
 P7,,VCCIO-1.8,VCCIO,,,1,,,,,,,
 P8,KPR,,I/O,,,1,,,,,,,
 P9,TDI,,TDI,,,,,,,,,,
@@ -44,24 +44,24 @@ P23,count2,I,I/O,INPUT,LVCMOS18,2,,FAST,,,,
 P24,TDO,,TDO,,,,,,,,,,
 P25,GND,,GND,,,,,,,,,,
 P26,,VCCIO-1.8,VCCIO,,,2,,,,,,,
-P27,outG<7>,O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
-P28,outG<6>,O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
-P29,outG<5>,O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
+P27,outG[7],O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
+P28,outG[6],O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
+P29,outG[5],O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
 P30,KPR,,I/O/GSR,,,2,,,,,,,
-P31,outG<4>,O,I/O/GTS2,OUTPUT,LVCMOS18,2,,FAST,,,,
-P32,outG<3>,O,I/O/GTS3,OUTPUT,LVCMOS18,2,,FAST,,,,
-P33,outG<2>,O,I/O/GTS0,OUTPUT,LVCMOS18,2,,FAST,,,,
-P34,outG<1>,O,I/O/GTS1,OUTPUT,LVCMOS18,2,,FAST,,,,
+P31,outG[4],O,I/O/GTS2,OUTPUT,LVCMOS18,2,,FAST,,,,
+P32,outG[3],O,I/O/GTS3,OUTPUT,LVCMOS18,2,,FAST,,,,
+P33,outG[2],O,I/O/GTS0,OUTPUT,LVCMOS18,2,,FAST,,,,
+P34,outG[1],O,I/O/GTS1,OUTPUT,LVCMOS18,2,,FAST,,,,
 P35,,VCCAUX,VAUX,,,,,,,,,,
-P36,outG<0>,O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
+P36,outG[0],O,I/O,OUTPUT,LVCMOS18,2,,FAST,,,,
 P37,KPR,,I/O,,,2,,,,,,,
 P38,KPR,,I/O,,,2,,,,,,,
 P39,KPR,,I/O,,,1,,,,,,,
 P40,KPR,,I/O,,,1,,,,,,,
 P41,KPR,,I/O,,,1,,,,,,,
-P42,outR<7>,O,I/O,OUTPUT,LVCMOS18,1,,FAST,,,,
-P43,outR<6>,O,I/O/GCK0,OUTPUT,LVCMOS18,1,,FAST,,,,
-P44,outR<5>,O,I/O/GCK1,OUTPUT,LVCMOS18,1,,FAST,,,,
+P42,outR[7],O,I/O,OUTPUT,LVCMOS18,1,,FAST,,,,
+P43,outR[6],O,I/O/GCK0,OUTPUT,LVCMOS18,1,,FAST,,,,
+P44,outR[5],O,I/O/GCK1,OUTPUT,LVCMOS18,1,,FAST,,,,
 
 To preserve the pinout above for future design iterations in
 Project Navigator simply execute the (Lock Pins) process

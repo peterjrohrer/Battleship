@@ -3,7 +3,7 @@
  
 cpldfit:  version P.40xd                            Xilinx Inc.
                                   Fitter Report
-Design Name: battleship                          Date:  6- 7-2015,  5:44PM
+Design Name: battleship                          Date:  6- 7-2015,  9:17PM
 Device Used: XC2C64A-7-VQ44
 Fitting Status: Successful
 
@@ -17,10 +17,10 @@ Used/Tot       Used/Tot         Inps Used/Tot    Used/Tot       Used/Tot
 
 Function Mcells   FB Inps  Pterms   IO       CTC      CTR      CTS      CTE     
 Block    Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot Used/Tot
-FB1       6/16      6/40     6/56     5/ 8    0/1      0/1      0/1      0/1
-FB2       6/16      4/40     6/56     6/ 9    0/1      0/1      0/1      0/1
-FB3       3/16      0/40     0/56     3/ 9    0/1      0/1      0/1      0/1
-FB4       2/16      4/40     2/56     2/ 7    0/1      0/1      0/1      0/1
+FB1       6/16     10/40    11/56     5/ 8    0/1      0/1      0/1      0/1
+FB2       6/16      0/40     0/56     6/ 9    0/1      0/1      0/1      0/1
+FB3       3/16      4/40     3/56     3/ 9    0/1      0/1      0/1      0/1
+FB4       2/16      0/40     0/56     2/ 7    0/1      0/1      0/1      0/1
          -----    -------  -------   -----    ---      ---      ---      ---
 Total    17/64     14/160   14/224   16/33    0/4      0/4      0/4      0/4 
 
@@ -58,34 +58,28 @@ WARNING:Cpld - Unable to retrieve the path to the iSE Project Repository. Will
    use the default filename of 'battleship.ise'.
 WARNING:Cpld:1007 - Removing unused input(s) 'fire'.  The input(s) are unused
    after optimization. Please verify functionality via simulation.
-WARNING:Cpld:1007 - Removing unused input(s) 'rom0'.  The input(s) are unused
-   after optimization. Please verify functionality via simulation.
-WARNING:Cpld:1007 - Removing unused input(s) 'rom1'.  The input(s) are unused
-   after optimization. Please verify functionality via simulation.
-WARNING:Cpld:1007 - Removing unused input(s) 'rom2'.  The input(s) are unused
-   after optimization. Please verify functionality via simulation.
 *************************  Summary of Mapped Logic  ************************
 
 ** 16 Outputs **
 
 Signal              Total Total Bank Loc     Pin   Pin       Pin     I/O      I/O       Slew Reg     Reg Init
 Name                Pts   Inps               No.   Type      Use     STD      Style     Rate Use     State
-outG<0>             0     0     2    FB1_3   36    I/O       O       LVCMOS18           FAST         
-outG<1>             0     0     2    FB1_9   34    GTS/I/O   O       LVCMOS18           FAST         
-outG<2>             0     0     2    FB1_10  33    GTS/I/O   O       LVCMOS18           FAST         
-outG<3>             0     0     2    FB1_11  32    GTS/I/O   O       LVCMOS18           FAST         
-outG<4>             0     0     2    FB1_12  31    GTS/I/O   O       LVCMOS18           FAST         
-outR<7>             1     4     1    FB2_6   42    I/O       O       LVCMOS18           FAST         
-outR<6>             1     4     1    FB2_7   43    GCK/I/O   O       LVCMOS18           FAST         
-outR<5>             1     4     1    FB2_8   44    GCK/I/O   O       LVCMOS18           FAST         
-outR<4>             1     4     1    FB2_10  1     GCK/I/O   O       LVCMOS18           FAST         
-outR<3>             1     4     1    FB2_12  2     I/O       O       LVCMOS18           FAST         
-outR<2>             1     4     1    FB2_13  3     I/O       O       LVCMOS18           FAST         
-outG<5>             0     0     2    FB3_1   29    I/O       O       LVCMOS18           FAST         
-outG<6>             0     0     2    FB3_2   28    I/O       O       LVCMOS18           FAST         
-outG<7>             0     0     2    FB3_3   27    I/O       O       LVCMOS18           FAST         
-outR<1>             1     4     1    FB4_1   5     I/O       O       LVCMOS18           FAST         
-outR<0>             1     4     1    FB4_2   6     I/O       O       LVCMOS18           FAST         
+outG[0]             1     4     2    FB1_3   36    I/O       O       LVCMOS18           FAST         
+outG[1]             1     4     2    FB1_9   34    GTS/I/O   O       LVCMOS18           FAST         
+outG[2]             1     4     2    FB1_10  33    GTS/I/O   O       LVCMOS18           FAST         
+outG[3]             1     4     2    FB1_11  32    GTS/I/O   O       LVCMOS18           FAST         
+outG[4]             1     4     2    FB1_12  31    GTS/I/O   O       LVCMOS18           FAST         
+outR[7]             0     0     1    FB2_6   42    I/O       O       LVCMOS18           FAST         
+outR[6]             0     0     1    FB2_7   43    GCK/I/O   O       LVCMOS18           FAST         
+outR[5]             0     0     1    FB2_8   44    GCK/I/O   O       LVCMOS18           FAST         
+outR[4]             0     0     1    FB2_10  1     GCK/I/O   O       LVCMOS18           FAST         
+outR[3]             0     0     1    FB2_12  2     I/O       O       LVCMOS18           FAST         
+outR[2]             0     0     1    FB2_13  3     I/O       O       LVCMOS18           FAST         
+outG[5]             1     4     2    FB3_1   29    I/O       O       LVCMOS18           FAST         
+outG[6]             1     4     2    FB3_2   28    I/O       O       LVCMOS18           FAST         
+outG[7]             1     4     2    FB3_3   27    I/O       O       LVCMOS18           FAST         
+outR[1]             0     0     1    FB4_1   5     I/O       O       LVCMOS18           FAST         
+outR[0]             0     0     1    FB4_2   6     I/O       O       LVCMOS18           FAST         
 
 ** 1 Buried Nodes **
 
@@ -133,47 +127,49 @@ Pin Type/Use - I  - Input             GCK - Global clock
 Pin No.      - ~  - User Assigned
 *********************************** FB1  ***********************************
 This function block is part of I/O Bank number:               2
-Number of function block inputs used/remaining:               6/34
+Number of function block inputs used/remaining:               10/30
 Number of function block control terms used/remaining:        0/4
-Number of PLA product terms used/remaining:                   6/50
+Number of PLA product terms used/remaining:                   11/45
 Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
 Name                          Pt            No.  Type    Use   
 (unused)                      0     FB1_1   38   I/O           
 (unused)                      0     FB1_2   37   I/O           
-outG<0>                       0     FB1_3   36   I/O     O                 
+outG[0]                       1     FB1_3   36   I/O     O                 
 (unused)                      0     FB1_4        (b)           
 (unused)                      0     FB1_5        (b)           
 (unused)                      0     FB1_6        (b)           
 (unused)                      0     FB1_7        (b)           
 (unused)                      0     FB1_8        (b)           
-outG<1>                       0     FB1_9   34   GTS/I/O O                 
-outG<2>                       0     FB1_10  33   GTS/I/O O                 
-outG<3>                       0     FB1_11  32   GTS/I/O O                 
-outG<4>                       0     FB1_12  31   GTS/I/O O                 
+outG[1]                       1     FB1_9   34   GTS/I/O O                 
+outG[2]                       1     FB1_10  33   GTS/I/O O                 
+outG[3]                       1     FB1_11  32   GTS/I/O O                 
+outG[4]                       1     FB1_12  31   GTS/I/O O                 
 (unused)                      0     FB1_13  30   GSR/I/O       
 (unused)                      0     FB1_14       (b)           
 (unused)                      0     FB1_15       (b)           
 N_PZ_25                       6     FB1_16       (b)     (b)               
 
 Signals Used by Logic in Function Block
-  1: col0               3: col2               5: count1 
-  2: col1               4: count0             6: count2 
+  1: N_PZ_25            5: count0             8: row0 
+  2: col0               6: count1             9: row1 
+  3: col1               7: count2            10: row2 
+  4: col2             
 
 Signal                     1         2         3         4 FB      
 Name             0----+----0----+----0----+----0----+----0 Inputs  
-outG<0>           ........................................ 0       
-outG<1>           ........................................ 0       
-outG<2>           ........................................ 0       
-outG<3>           ........................................ 0       
-outG<4>           ........................................ 0       
-N_PZ_25           XXXXXX.................................. 6       
+outG[0]           X......XXX.............................. 4       
+outG[1]           X......XXX.............................. 4       
+outG[2]           X......XXX.............................. 4       
+outG[3]           X......XXX.............................. 4       
+outG[4]           X......XXX.............................. 4       
+N_PZ_25           .XXXXXX................................. 6       
                  0----+----1----+----2----+----3----+----4
                            0         0         0         0
 *********************************** FB2  ***********************************
 This function block is part of I/O Bank number:               1
-Number of function block inputs used/remaining:               4/36
+Number of function block inputs used/remaining:               0/40
 Number of function block control terms used/remaining:        0/4
-Number of PLA product terms used/remaining:                   6/50
+Number of PLA product terms used/remaining:                   0/56
 Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
 Name                          Pt            No.  Type    Use   
 (unused)                      0     FB2_1   39   I/O           
@@ -181,42 +177,40 @@ Name                          Pt            No.  Type    Use
 (unused)                      0     FB2_3        (b)           
 (unused)                      0     FB2_4        (b)           
 (unused)                      0     FB2_5   41   I/O           
-outR<7>                       1     FB2_6   42   I/O     O                 
-outR<6>                       1     FB2_7   43   GCK/I/O O                 
-outR<5>                       1     FB2_8   44   GCK/I/O O                 
+outR[7]                       0     FB2_6   42   I/O     O                 
+outR[6]                       0     FB2_7   43   GCK/I/O O                 
+outR[5]                       0     FB2_8   44   GCK/I/O O                 
 (unused)                      0     FB2_9        (b)           
-outR<4>                       1     FB2_10  1    GCK/I/O O                 
+outR[4]                       0     FB2_10  1    GCK/I/O O                 
 (unused)                      0     FB2_11       (b)           
-outR<3>                       1     FB2_12  2    I/O     O                 
-outR<2>                       1     FB2_13  3    I/O     O                 
+outR[3]                       0     FB2_12  2    I/O     O                 
+outR[2]                       0     FB2_13  3    I/O     O                 
 (unused)                      0     FB2_14       (b)           
 (unused)                      0     FB2_15       (b)           
 (unused)                      0     FB2_16       (b)           
 
 Signals Used by Logic in Function Block
-  1: N_PZ_25            3: row1               4: row2 
-  2: row0             
 
 Signal                     1         2         3         4 FB      
 Name             0----+----0----+----0----+----0----+----0 Inputs  
-outR<7>           XXXX.................................... 4       
-outR<6>           XXXX.................................... 4       
-outR<5>           XXXX.................................... 4       
-outR<4>           XXXX.................................... 4       
-outR<3>           XXXX.................................... 4       
-outR<2>           XXXX.................................... 4       
+outR[7]           ........................................ 0       
+outR[6]           ........................................ 0       
+outR[5]           ........................................ 0       
+outR[4]           ........................................ 0       
+outR[3]           ........................................ 0       
+outR[2]           ........................................ 0       
                  0----+----1----+----2----+----3----+----4
                            0         0         0         0
 *********************************** FB3  ***********************************
 This function block is part of I/O Bank number:               2
-Number of function block inputs used/remaining:               0/40
+Number of function block inputs used/remaining:               4/36
 Number of function block control terms used/remaining:        0/4
-Number of PLA product terms used/remaining:                   0/56
+Number of PLA product terms used/remaining:                   3/53
 Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
 Name                          Pt            No.  Type    Use   
-outG<5>                       0     FB3_1   29   I/O     O                 
-outG<6>                       0     FB3_2   28   I/O     O                 
-outG<7>                       0     FB3_3   27   I/O     O                 
+outG[5]                       1     FB3_1   29   I/O     O                 
+outG[6]                       1     FB3_2   28   I/O     O                 
+outG[7]                       1     FB3_3   27   I/O     O                 
 (unused)                      0     FB3_4        (b)           
 (unused)                      0     FB3_5        (b)           
 (unused)                      0     FB3_6   23   I/O     I     
@@ -232,23 +226,25 @@ outG<7>                       0     FB3_3   27   I/O     O
 (unused)                      0     FB3_16       (b)           
 
 Signals Used by Logic in Function Block
+  1: N_PZ_25            3: row1               4: row2 
+  2: row0             
 
 Signal                     1         2         3         4 FB      
 Name             0----+----0----+----0----+----0----+----0 Inputs  
-outG<5>           ........................................ 0       
-outG<6>           ........................................ 0       
-outG<7>           ........................................ 0       
+outG[5]           XXXX.................................... 4       
+outG[6]           XXXX.................................... 4       
+outG[7]           XXXX.................................... 4       
                  0----+----1----+----2----+----3----+----4
                            0         0         0         0
 *********************************** FB4  ***********************************
 This function block is part of I/O Bank number:               1
-Number of function block inputs used/remaining:               4/36
+Number of function block inputs used/remaining:               0/40
 Number of function block control terms used/remaining:        0/4
-Number of PLA product terms used/remaining:                   2/54
+Number of PLA product terms used/remaining:                   0/56
 Signal                        Total Loc     Pin  Pin     Pin   CTC CTR CTS CTE
 Name                          Pt            No.  Type    Use   
-outR<1>                       1     FB4_1   5    I/O     O                 
-outR<0>                       1     FB4_2   6    I/O     O                 
+outR[1]                       0     FB4_1   5    I/O     O                 
+outR[0]                       0     FB4_2   6    I/O     O                 
 (unused)                      0     FB4_3        (b)           
 (unused)                      0     FB4_4        (b)           
 (unused)                      0     FB4_5        (b)           
@@ -265,13 +261,11 @@ outR<0>                       1     FB4_2   6    I/O     O
 (unused)                      0     FB4_16       (b)           
 
 Signals Used by Logic in Function Block
-  1: N_PZ_25            3: row1               4: row2 
-  2: row0             
 
 Signal                     1         2         3         4 FB      
 Name             0----+----0----+----0----+----0----+----0 Inputs  
-outR<1>           XXXX.................................... 4       
-outR<0>           XXXX.................................... 4       
+outR[1]           ........................................ 0       
+outR[0]           ........................................ 0       
                  0----+----1----+----2----+----3----+----4
                            0         0         0         0
 *******************************  Equations  ********************************
@@ -287,52 +281,52 @@ N_PZ_25 <= ((col0 AND NOT count0)
 	OR (NOT col2 AND count2));
 
 
-outG(0) <= '0';
+outG[0] <= (NOT row2 AND NOT row1 AND NOT row0 AND NOT N_PZ_25);
 
 
-outG(1) <= '0';
+outG[1] <= (NOT row2 AND NOT row1 AND row0 AND NOT N_PZ_25);
 
 
-outG(2) <= '0';
+outG[2] <= (NOT row2 AND row1 AND NOT row0 AND NOT N_PZ_25);
 
 
-outG(3) <= '0';
+outG[3] <= (NOT row2 AND row1 AND row0 AND NOT N_PZ_25);
 
 
-outG(4) <= '0';
+outG[4] <= (row2 AND NOT row1 AND NOT row0 AND NOT N_PZ_25);
 
 
-outG(5) <= '0';
+outG[5] <= (row2 AND NOT row1 AND row0 AND NOT N_PZ_25);
 
 
-outG(6) <= '0';
+outG[6] <= (row2 AND row1 AND NOT row0 AND NOT N_PZ_25);
 
 
-outG(7) <= '0';
+outG[7] <= (row2 AND row1 AND row0 AND NOT N_PZ_25);
 
 
-outR(0) <= (NOT row2 AND NOT row1 AND NOT row0 AND NOT N_PZ_25);
+outR[0] <= '0';
 
 
-outR(1) <= (NOT row2 AND NOT row1 AND row0 AND NOT N_PZ_25);
+outR[1] <= '0';
 
 
-outR(2) <= (NOT row2 AND row1 AND NOT row0 AND NOT N_PZ_25);
+outR[2] <= '0';
 
 
-outR(3) <= (NOT row2 AND row1 AND row0 AND NOT N_PZ_25);
+outR[3] <= '0';
 
 
-outR(4) <= (row2 AND NOT row1 AND NOT row0 AND NOT N_PZ_25);
+outR[4] <= '0';
 
 
-outR(5) <= (row2 AND NOT row1 AND row0 AND NOT N_PZ_25);
+outR[5] <= '0';
 
 
-outR(6) <= (row2 AND row1 AND NOT row0 AND NOT N_PZ_25);
+outR[6] <= '0';
 
 
-outR(7) <= (row2 AND row1 AND row0 AND NOT N_PZ_25);
+outR[7] <= '0';
 
 
 Register Legend:
@@ -366,28 +360,28 @@ Device : XC2C64A-7-VQ44
 
 Pin Signal                         Pin Signal                        
 No. Name                           No. Name                          
-  1 outR<4>                          23 count2                        
-  2 outR<3>                          24 TDO                           
-  3 outR<2>                          25 GND                           
+  1 outR[4]                          23 count2                        
+  2 outR[3]                          24 TDO                           
+  3 outR[2]                          25 GND                           
   4 GND                              26 VCCIO-1.8                     
-  5 outR<1>                          27 outG<7>                       
-  6 outR<0>                          28 outG<6>                       
-  7 VCCIO-1.8                        29 outG<5>                       
+  5 outR[1]                          27 outG[7]                       
+  6 outR[0]                          28 outG[6]                       
+  7 VCCIO-1.8                        29 outG[5]                       
   8 KPR                              30 KPR                           
-  9 TDI                              31 outG<4>                       
- 10 TMS                              32 outG<3>                       
- 11 TCK                              33 outG<2>                       
- 12 row0                             34 outG<1>                       
+  9 TDI                              31 outG[4]                       
+ 10 TMS                              32 outG[3]                       
+ 11 TCK                              33 outG[2]                       
+ 12 row0                             34 outG[1]                       
  13 row1                             35 VCCAUX                        
- 14 row2                             36 outG<0>                       
+ 14 row2                             36 outG[0]                       
  15 VCC                              37 KPR                           
  16 KPR                              38 KPR                           
  17 GND                              39 KPR                           
  18 col0                             40 KPR                           
  19 col1                             41 KPR                           
- 20 col2                             42 outR<7>                       
- 21 count0                           43 outR<6>                       
- 22 count1                           44 outR<5>                       
+ 20 col2                             42 outR[7]                       
+ 21 count0                           43 outR[6]                       
+ 22 count1                           44 outR[5]                       
 
 
 Legend :  NC  = Not Connected, unbonded pin

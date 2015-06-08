@@ -8,318 +8,126 @@ NETWORK | battleship | 0 | 0 | 1073758214 | 0
 
 INPUT_INSTANCE | 0 | 0 | NULL | col0_II | battleship_COPY_0_COPY_0 | 16 | 1 | 1
 INPUT_NODE_TYPE | 0 | 5 | II_IN
-NODE | col0 | 1145 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+NODE | col0 | 1139 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
 OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
-NODE | col0_II/UIM | 1213 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col0_II | 0 | 5 | II_IMUX
+NODE | col0_II/UIM | 1159 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col0_II | 0 | 5 | II_IMUX
 
 INPUT_INSTANCE | 0 | 0 | NULL | col1_II | battleship_COPY_0_COPY_0 | 16 | 1 | 1
 INPUT_NODE_TYPE | 0 | 5 | II_IN
-NODE | col1 | 1146 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+NODE | col1 | 1140 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
 OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
-NODE | col1_II/UIM | 1215 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col1_II | 0 | 5 | II_IMUX
+NODE | col1_II/UIM | 1161 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col1_II | 0 | 5 | II_IMUX
 
 INPUT_INSTANCE | 0 | 0 | NULL | col2_II | battleship_COPY_0_COPY_0 | 16 | 1 | 1
 INPUT_NODE_TYPE | 0 | 5 | II_IN
-NODE | col2 | 1147 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+NODE | col2 | 1141 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
 OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
-NODE | col2_II/UIM | 1217 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col2_II | 0 | 5 | II_IMUX
+NODE | col2_II/UIM | 1163 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col2_II | 0 | 5 | II_IMUX
 
 INPUT_INSTANCE | 0 | 0 | NULL | count0_II | battleship_COPY_0_COPY_0 | 16 | 1 | 1
 INPUT_NODE_TYPE | 0 | 5 | II_IN
-NODE | count0 | 1148 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+NODE | count0 | 1142 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
 OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
-NODE | count0_II/UIM | 1214 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count0_II | 0 | 5 | II_IMUX
+NODE | count0_II/UIM | 1160 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count0_II | 0 | 5 | II_IMUX
 
 INPUT_INSTANCE | 0 | 0 | NULL | count1_II | battleship_COPY_0_COPY_0 | 16 | 1 | 1
 INPUT_NODE_TYPE | 0 | 5 | II_IN
-NODE | count1 | 1149 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+NODE | count1 | 1143 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
 OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
-NODE | count1_II/UIM | 1216 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count1_II | 0 | 5 | II_IMUX
+NODE | count1_II/UIM | 1162 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count1_II | 0 | 5 | II_IMUX
 
 INPUT_INSTANCE | 0 | 0 | NULL | count2_II | battleship_COPY_0_COPY_0 | 16 | 1 | 1
 INPUT_NODE_TYPE | 0 | 5 | II_IN
-NODE | count2 | 1150 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+NODE | count2 | 1144 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
 OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
-NODE | count2_II/UIM | 1218 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count2_II | 0 | 5 | II_IMUX
+NODE | count2_II/UIM | 1164 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count2_II | 0 | 5 | II_IMUX
 
-MACROCELL_INSTANCE | NULL | outG<0>_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
-OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outG<0>_MC.Q | 1155 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<0>_MC.Q | outG<0>_MC | 0 | 0 | MC_Q
-
-SIGNAL_INSTANCE | outG<0>_MC.SI | outG<0>_MC | 0 | 0 | 2
-OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outG<0>_MC.D1 | 1153 | ? | 0 | 0 | outG<0>_MC | NULL | NULL | outG<0>_MC.SI | 1 | 9 | MC_SI_D1
-SPPTERM | 0 | IV_ZERO
-OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outG<0>_MC.D2 | 1152 | ? | 0 | 0 | outG<0>_MC | NULL | NULL | outG<0>_MC.SI | 2 | 9 | MC_SI_D2
-SPPTERM | 0 | IV_ZERO
-
-SRFF_INSTANCE | outG<0>_MC.REG | outG<0>_MC | 0 | 1 | 1
-INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outG<0>_MC.D | 1151 | ? | 0 | 0 | outG<0>_MC | NULL | NULL | outG<0>_MC.XOR | 0 | 7 | ALU_F
-OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outG<0>_MC.Q | 1154 | ? | 0 | 0 | outG<0>_MC | NULL | NULL | outG<0>_MC.REG | 0 | 8 | SRFF_Q
-
-OUTPUT_INSTANCE | 0 | outG<0> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
-INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outG<0>_MC.Q | 1155 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<0>_MC.Q | outG<0>_MC | 0 | 0 | MC_Q
-OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outG<0> | 1156 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG<0> | 0 | 6 | OI_OUT
-
-MACROCELL_INSTANCE | NULL | outG<1>_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
-OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outG<1>_MC.Q | 1161 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<1>_MC.Q | outG<1>_MC | 0 | 0 | MC_Q
-
-SIGNAL_INSTANCE | outG<1>_MC.SI | outG<1>_MC | 0 | 0 | 2
-OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outG<1>_MC.D1 | 1159 | ? | 0 | 0 | outG<1>_MC | NULL | NULL | outG<1>_MC.SI | 1 | 9 | MC_SI_D1
-SPPTERM | 0 | IV_ZERO
-OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outG<1>_MC.D2 | 1158 | ? | 0 | 0 | outG<1>_MC | NULL | NULL | outG<1>_MC.SI | 2 | 9 | MC_SI_D2
-SPPTERM | 0 | IV_ZERO
-
-SRFF_INSTANCE | outG<1>_MC.REG | outG<1>_MC | 0 | 1 | 1
-INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outG<1>_MC.D | 1157 | ? | 0 | 0 | outG<1>_MC | NULL | NULL | outG<1>_MC.XOR | 0 | 7 | ALU_F
-OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outG<1>_MC.Q | 1160 | ? | 0 | 0 | outG<1>_MC | NULL | NULL | outG<1>_MC.REG | 0 | 8 | SRFF_Q
-
-OUTPUT_INSTANCE | 0 | outG<1> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
-INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outG<1>_MC.Q | 1161 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<1>_MC.Q | outG<1>_MC | 0 | 0 | MC_Q
-OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outG<1> | 1162 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG<1> | 0 | 6 | OI_OUT
-
-MACROCELL_INSTANCE | NULL | outG<2>_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
-OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outG<2>_MC.Q | 1167 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<2>_MC.Q | outG<2>_MC | 0 | 0 | MC_Q
-
-SIGNAL_INSTANCE | outG<2>_MC.SI | outG<2>_MC | 0 | 0 | 2
-OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outG<2>_MC.D1 | 1165 | ? | 0 | 0 | outG<2>_MC | NULL | NULL | outG<2>_MC.SI | 1 | 9 | MC_SI_D1
-SPPTERM | 0 | IV_ZERO
-OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outG<2>_MC.D2 | 1164 | ? | 0 | 0 | outG<2>_MC | NULL | NULL | outG<2>_MC.SI | 2 | 9 | MC_SI_D2
-SPPTERM | 0 | IV_ZERO
-
-SRFF_INSTANCE | outG<2>_MC.REG | outG<2>_MC | 0 | 1 | 1
-INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outG<2>_MC.D | 1163 | ? | 0 | 0 | outG<2>_MC | NULL | NULL | outG<2>_MC.XOR | 0 | 7 | ALU_F
-OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outG<2>_MC.Q | 1166 | ? | 0 | 0 | outG<2>_MC | NULL | NULL | outG<2>_MC.REG | 0 | 8 | SRFF_Q
-
-OUTPUT_INSTANCE | 0 | outG<2> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
-INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outG<2>_MC.Q | 1167 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<2>_MC.Q | outG<2>_MC | 0 | 0 | MC_Q
-OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outG<2> | 1168 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG<2> | 0 | 6 | OI_OUT
-
-MACROCELL_INSTANCE | NULL | outG<3>_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
-OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outG<3>_MC.Q | 1173 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<3>_MC.Q | outG<3>_MC | 0 | 0 | MC_Q
-
-SIGNAL_INSTANCE | outG<3>_MC.SI | outG<3>_MC | 0 | 0 | 2
-OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outG<3>_MC.D1 | 1171 | ? | 0 | 0 | outG<3>_MC | NULL | NULL | outG<3>_MC.SI | 1 | 9 | MC_SI_D1
-SPPTERM | 0 | IV_ZERO
-OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outG<3>_MC.D2 | 1170 | ? | 0 | 0 | outG<3>_MC | NULL | NULL | outG<3>_MC.SI | 2 | 9 | MC_SI_D2
-SPPTERM | 0 | IV_ZERO
-
-SRFF_INSTANCE | outG<3>_MC.REG | outG<3>_MC | 0 | 1 | 1
-INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outG<3>_MC.D | 1169 | ? | 0 | 0 | outG<3>_MC | NULL | NULL | outG<3>_MC.XOR | 0 | 7 | ALU_F
-OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outG<3>_MC.Q | 1172 | ? | 0 | 0 | outG<3>_MC | NULL | NULL | outG<3>_MC.REG | 0 | 8 | SRFF_Q
-
-OUTPUT_INSTANCE | 0 | outG<3> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
-INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outG<3>_MC.Q | 1173 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<3>_MC.Q | outG<3>_MC | 0 | 0 | MC_Q
-OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outG<3> | 1174 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG<3> | 0 | 6 | OI_OUT
-
-MACROCELL_INSTANCE | NULL | outG<4>_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
-OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outG<4>_MC.Q | 1179 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<4>_MC.Q | outG<4>_MC | 0 | 0 | MC_Q
-
-SIGNAL_INSTANCE | outG<4>_MC.SI | outG<4>_MC | 0 | 0 | 2
-OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outG<4>_MC.D1 | 1177 | ? | 0 | 0 | outG<4>_MC | NULL | NULL | outG<4>_MC.SI | 1 | 9 | MC_SI_D1
-SPPTERM | 0 | IV_ZERO
-OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outG<4>_MC.D2 | 1176 | ? | 0 | 0 | outG<4>_MC | NULL | NULL | outG<4>_MC.SI | 2 | 9 | MC_SI_D2
-SPPTERM | 0 | IV_ZERO
-
-SRFF_INSTANCE | outG<4>_MC.REG | outG<4>_MC | 0 | 1 | 1
-INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outG<4>_MC.D | 1175 | ? | 0 | 0 | outG<4>_MC | NULL | NULL | outG<4>_MC.XOR | 0 | 7 | ALU_F
-OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outG<4>_MC.Q | 1178 | ? | 0 | 0 | outG<4>_MC | NULL | NULL | outG<4>_MC.REG | 0 | 8 | SRFF_Q
-
-OUTPUT_INSTANCE | 0 | outG<4> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
-INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outG<4>_MC.Q | 1179 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<4>_MC.Q | outG<4>_MC | 0 | 0 | MC_Q
-OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outG<4> | 1180 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG<4> | 0 | 6 | OI_OUT
-
-MACROCELL_INSTANCE | NULL | outG<5>_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
-OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outG<5>_MC.Q | 1185 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<5>_MC.Q | outG<5>_MC | 0 | 0 | MC_Q
-
-SIGNAL_INSTANCE | outG<5>_MC.SI | outG<5>_MC | 0 | 0 | 2
-OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outG<5>_MC.D1 | 1183 | ? | 0 | 0 | outG<5>_MC | NULL | NULL | outG<5>_MC.SI | 1 | 9 | MC_SI_D1
-SPPTERM | 0 | IV_ZERO
-OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outG<5>_MC.D2 | 1182 | ? | 0 | 0 | outG<5>_MC | NULL | NULL | outG<5>_MC.SI | 2 | 9 | MC_SI_D2
-SPPTERM | 0 | IV_ZERO
-
-SRFF_INSTANCE | outG<5>_MC.REG | outG<5>_MC | 0 | 1 | 1
-INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outG<5>_MC.D | 1181 | ? | 0 | 0 | outG<5>_MC | NULL | NULL | outG<5>_MC.XOR | 0 | 7 | ALU_F
-OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outG<5>_MC.Q | 1184 | ? | 0 | 0 | outG<5>_MC | NULL | NULL | outG<5>_MC.REG | 0 | 8 | SRFF_Q
-
-OUTPUT_INSTANCE | 0 | outG<5> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
-INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outG<5>_MC.Q | 1185 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<5>_MC.Q | outG<5>_MC | 0 | 0 | MC_Q
-OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outG<5> | 1186 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG<5> | 0 | 6 | OI_OUT
-
-MACROCELL_INSTANCE | NULL | outG<6>_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
-OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outG<6>_MC.Q | 1191 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<6>_MC.Q | outG<6>_MC | 0 | 0 | MC_Q
-
-SIGNAL_INSTANCE | outG<6>_MC.SI | outG<6>_MC | 0 | 0 | 2
-OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outG<6>_MC.D1 | 1189 | ? | 0 | 0 | outG<6>_MC | NULL | NULL | outG<6>_MC.SI | 1 | 9 | MC_SI_D1
-SPPTERM | 0 | IV_ZERO
-OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outG<6>_MC.D2 | 1188 | ? | 0 | 0 | outG<6>_MC | NULL | NULL | outG<6>_MC.SI | 2 | 9 | MC_SI_D2
-SPPTERM | 0 | IV_ZERO
-
-SRFF_INSTANCE | outG<6>_MC.REG | outG<6>_MC | 0 | 1 | 1
-INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outG<6>_MC.D | 1187 | ? | 0 | 0 | outG<6>_MC | NULL | NULL | outG<6>_MC.XOR | 0 | 7 | ALU_F
-OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outG<6>_MC.Q | 1190 | ? | 0 | 0 | outG<6>_MC | NULL | NULL | outG<6>_MC.REG | 0 | 8 | SRFF_Q
-
-OUTPUT_INSTANCE | 0 | outG<6> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
-INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outG<6>_MC.Q | 1191 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<6>_MC.Q | outG<6>_MC | 0 | 0 | MC_Q
-OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outG<6> | 1192 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG<6> | 0 | 6 | OI_OUT
-
-MACROCELL_INSTANCE | NULL | outG<7>_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
-OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outG<7>_MC.Q | 1197 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<7>_MC.Q | outG<7>_MC | 0 | 0 | MC_Q
-
-SIGNAL_INSTANCE | outG<7>_MC.SI | outG<7>_MC | 0 | 0 | 2
-OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outG<7>_MC.D1 | 1195 | ? | 0 | 0 | outG<7>_MC | NULL | NULL | outG<7>_MC.SI | 1 | 9 | MC_SI_D1
-SPPTERM | 0 | IV_ZERO
-OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outG<7>_MC.D2 | 1194 | ? | 0 | 0 | outG<7>_MC | NULL | NULL | outG<7>_MC.SI | 2 | 9 | MC_SI_D2
-SPPTERM | 0 | IV_ZERO
-
-SRFF_INSTANCE | outG<7>_MC.REG | outG<7>_MC | 0 | 1 | 1
-INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outG<7>_MC.D | 1193 | ? | 0 | 0 | outG<7>_MC | NULL | NULL | outG<7>_MC.XOR | 0 | 7 | ALU_F
-OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outG<7>_MC.Q | 1196 | ? | 0 | 0 | outG<7>_MC | NULL | NULL | outG<7>_MC.REG | 0 | 8 | SRFF_Q
-
-OUTPUT_INSTANCE | 0 | outG<7> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
-INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outG<7>_MC.Q | 1197 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG<7>_MC.Q | outG<7>_MC | 0 | 0 | MC_Q
-OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outG<7> | 1198 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG<7> | 0 | 6 | OI_OUT
-
-MACROCELL_INSTANCE | NULL | outR<0>_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
+MACROCELL_INSTANCE | NULL | outG[0]_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outR<0>_MC.Q | 1220 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<0>_MC.Q | outR<0>_MC | 0 | 0 | MC_Q
+NODE | outG[0]_MC.Q | 1166 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[0]_MC.Q | outG[0]_MC | 0 | 0 | MC_Q
 
-SIGNAL_INSTANCE | outR<0>_MC.SI | outR<0>_MC | 0 | 4 | 2
+SIGNAL_INSTANCE | outG[0]_MC.SI | outG[0]_MC | 0 | 4 | 2
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outR<0>_MC.D1 | 1200 | ? | 0 | 0 | outR<0>_MC | NULL | NULL | outR<0>_MC.SI | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outG[0]_MC.D1 | 1146 | ? | 0 | 0 | outG[0]_MC | NULL | NULL | outG[0]_MC.SI | 1 | 9 | MC_SI_D1
 SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
 OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outR<0>_MC.D2 | 1201 | ? | 0 | 0 | outR<0>_MC | NULL | NULL | outR<0>_MC.SI | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outG[0]_MC.D2 | 1147 | ? | 0 | 0 | outG[0]_MC | NULL | NULL | outG[0]_MC.SI | 2 | 9 | MC_SI_D2
 SPPTERM | 0 | IV_ZERO
 
-SRFF_INSTANCE | outR<0>_MC.REG | outR<0>_MC | 0 | 1 | 1
+SRFF_INSTANCE | outG[0]_MC.REG | outG[0]_MC | 0 | 1 | 1
 INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outR<0>_MC.D | 1199 | ? | 0 | 0 | outR<0>_MC | NULL | NULL | outR<0>_MC.XOR | 0 | 7 | ALU_F
+NODE | outG[0]_MC.D | 1145 | ? | 0 | 0 | outG[0]_MC | NULL | NULL | outG[0]_MC.XOR | 0 | 7 | ALU_F
 OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outR<0>_MC.Q | 1219 | ? | 0 | 0 | outR<0>_MC | NULL | NULL | outR<0>_MC.REG | 0 | 8 | SRFF_Q
+NODE | outG[0]_MC.Q | 1165 | ? | 0 | 0 | outG[0]_MC | NULL | NULL | outG[0]_MC.REG | 0 | 8 | SRFF_Q
 
 INPUT_INSTANCE | 0 | 0 | NULL | row2_II | battleship_COPY_0_COPY_0 | 16 | 1 | 1
 INPUT_NODE_TYPE | 0 | 5 | II_IN
-NODE | row2 | 1202 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+NODE | row2 | 1148 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
 OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 
 INPUT_INSTANCE | 0 | 0 | NULL | row1_II | battleship_COPY_0_COPY_0 | 16 | 1 | 1
 INPUT_NODE_TYPE | 0 | 5 | II_IN
-NODE | row1 | 1204 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+NODE | row1 | 1150 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
 OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 
 INPUT_INSTANCE | 0 | 0 | NULL | row0_II | battleship_COPY_0_COPY_0 | 16 | 1 | 1
 INPUT_NODE_TYPE | 0 | 5 | II_IN
-NODE | row0 | 1206 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+NODE | row0 | 1152 | PI | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
 OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 
 MACROCELL_INSTANCE | NULL | N_PZ_25_MC | battleship_COPY_0_COPY_0 | 0 | 6 | 1
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | col0_II/UIM | 1213 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col0_II | 0 | 5 | II_IMUX
+NODE | col0_II/UIM | 1159 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | count0_II/UIM | 1214 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count0_II | 0 | 5 | II_IMUX
+NODE | count0_II/UIM | 1160 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | col1_II/UIM | 1215 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col1_II | 0 | 5 | II_IMUX
+NODE | col1_II/UIM | 1161 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | count1_II/UIM | 1216 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count1_II | 0 | 5 | II_IMUX
+NODE | count1_II/UIM | 1162 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | col2_II/UIM | 1217 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col2_II | 0 | 5 | II_IMUX
+NODE | col2_II/UIM | 1163 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | count2_II/UIM | 1218 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count2_II | 0 | 5 | II_IMUX
+NODE | count2_II/UIM | 1164 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count2_II | 0 | 5 | II_IMUX
 OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 
 SIGNAL_INSTANCE | N_PZ_25_MC.SI | N_PZ_25_MC | 0 | 6 | 2
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | col0_II/UIM | 1213 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col0_II | 0 | 5 | II_IMUX
+NODE | col0_II/UIM | 1159 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | count0_II/UIM | 1214 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count0_II | 0 | 5 | II_IMUX
+NODE | count0_II/UIM | 1160 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | col1_II/UIM | 1215 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col1_II | 0 | 5 | II_IMUX
+NODE | col1_II/UIM | 1161 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | count1_II/UIM | 1216 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count1_II | 0 | 5 | II_IMUX
+NODE | count1_II/UIM | 1162 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | col2_II/UIM | 1217 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col2_II | 0 | 5 | II_IMUX
+NODE | col2_II/UIM | 1163 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | col2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | count2_II/UIM | 1218 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count2_II | 0 | 5 | II_IMUX
+NODE | count2_II/UIM | 1164 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | count2_II | 0 | 5 | II_IMUX
 OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | N_PZ_25_MC.D1 | 1212 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.SI | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | N_PZ_25_MC.D1 | 1158 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.SI | 1 | 9 | MC_SI_D1
 SPPTERM | 0 | IV_ZERO
 OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | N_PZ_25_MC.D2 | 1211 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.SI | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | N_PZ_25_MC.D2 | 1157 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.SI | 2 | 9 | MC_SI_D2
 SPPTERM | 2 | IV_TRUE | col0_II/UIM | IV_FALSE | count0_II/UIM
 SPPTERM | 2 | IV_FALSE | col0_II/UIM | IV_TRUE | count0_II/UIM
 SPPTERM | 2 | IV_TRUE | col1_II/UIM | IV_FALSE | count1_II/UIM
@@ -329,316 +137,508 @@ SPPTERM | 2 | IV_FALSE | col2_II/UIM | IV_TRUE | count2_II/UIM
 
 SRFF_INSTANCE | N_PZ_25_MC.REG | N_PZ_25_MC | 0 | 1 | 1
 INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | N_PZ_25_MC.D | 1210 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.XOR | 0 | 7 | ALU_F
+NODE | N_PZ_25_MC.D | 1156 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.XOR | 0 | 7 | ALU_F
 OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | N_PZ_25_MC.Q | 1209 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.REG | 0 | 8 | SRFF_Q
+NODE | N_PZ_25_MC.Q | 1155 | ? | 0 | 0 | N_PZ_25_MC | NULL | NULL | N_PZ_25_MC.REG | 0 | 8 | SRFF_Q
 
-OUTPUT_INSTANCE | 0 | outR<0> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+OUTPUT_INSTANCE | 0 | outG[0] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
 INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outR<0>_MC.Q | 1220 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<0>_MC.Q | outR<0>_MC | 0 | 0 | MC_Q
+NODE | outG[0]_MC.Q | 1166 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[0]_MC.Q | outG[0]_MC | 0 | 0 | MC_Q
 OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outR<0> | 1221 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR<0> | 0 | 6 | OI_OUT
+NODE | outG[0] | 1167 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG[0] | 0 | 6 | OI_OUT
 
-MACROCELL_INSTANCE | NULL | outR<1>_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
+MACROCELL_INSTANCE | NULL | outG[1]_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outR<1>_MC.Q | 1226 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<1>_MC.Q | outR<1>_MC | 0 | 0 | MC_Q
+NODE | outG[1]_MC.Q | 1172 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[1]_MC.Q | outG[1]_MC | 0 | 0 | MC_Q
 
-SIGNAL_INSTANCE | outR<1>_MC.SI | outR<1>_MC | 0 | 4 | 2
+SIGNAL_INSTANCE | outG[1]_MC.SI | outG[1]_MC | 0 | 4 | 2
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outR<1>_MC.D1 | 1223 | ? | 0 | 0 | outR<1>_MC | NULL | NULL | outR<1>_MC.SI | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outG[1]_MC.D1 | 1169 | ? | 0 | 0 | outG[1]_MC | NULL | NULL | outG[1]_MC.SI | 1 | 9 | MC_SI_D1
 SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
 OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outR<1>_MC.D2 | 1224 | ? | 0 | 0 | outR<1>_MC | NULL | NULL | outR<1>_MC.SI | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outG[1]_MC.D2 | 1170 | ? | 0 | 0 | outG[1]_MC | NULL | NULL | outG[1]_MC.SI | 2 | 9 | MC_SI_D2
 SPPTERM | 0 | IV_ZERO
 
-SRFF_INSTANCE | outR<1>_MC.REG | outR<1>_MC | 0 | 1 | 1
+SRFF_INSTANCE | outG[1]_MC.REG | outG[1]_MC | 0 | 1 | 1
 INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outR<1>_MC.D | 1222 | ? | 0 | 0 | outR<1>_MC | NULL | NULL | outR<1>_MC.XOR | 0 | 7 | ALU_F
+NODE | outG[1]_MC.D | 1168 | ? | 0 | 0 | outG[1]_MC | NULL | NULL | outG[1]_MC.XOR | 0 | 7 | ALU_F
 OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outR<1>_MC.Q | 1225 | ? | 0 | 0 | outR<1>_MC | NULL | NULL | outR<1>_MC.REG | 0 | 8 | SRFF_Q
+NODE | outG[1]_MC.Q | 1171 | ? | 0 | 0 | outG[1]_MC | NULL | NULL | outG[1]_MC.REG | 0 | 8 | SRFF_Q
 
-OUTPUT_INSTANCE | 0 | outR<1> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+OUTPUT_INSTANCE | 0 | outG[1] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
 INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outR<1>_MC.Q | 1226 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<1>_MC.Q | outR<1>_MC | 0 | 0 | MC_Q
+NODE | outG[1]_MC.Q | 1172 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[1]_MC.Q | outG[1]_MC | 0 | 0 | MC_Q
 OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outR<1> | 1227 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR<1> | 0 | 6 | OI_OUT
+NODE | outG[1] | 1173 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG[1] | 0 | 6 | OI_OUT
 
-MACROCELL_INSTANCE | NULL | outR<2>_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
+MACROCELL_INSTANCE | NULL | outG[2]_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outR<2>_MC.Q | 1232 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<2>_MC.Q | outR<2>_MC | 0 | 0 | MC_Q
+NODE | outG[2]_MC.Q | 1178 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[2]_MC.Q | outG[2]_MC | 0 | 0 | MC_Q
 
-SIGNAL_INSTANCE | outR<2>_MC.SI | outR<2>_MC | 0 | 4 | 2
+SIGNAL_INSTANCE | outG[2]_MC.SI | outG[2]_MC | 0 | 4 | 2
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outR<2>_MC.D1 | 1229 | ? | 0 | 0 | outR<2>_MC | NULL | NULL | outR<2>_MC.SI | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outG[2]_MC.D1 | 1175 | ? | 0 | 0 | outG[2]_MC | NULL | NULL | outG[2]_MC.SI | 1 | 9 | MC_SI_D1
 SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
 OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outR<2>_MC.D2 | 1230 | ? | 0 | 0 | outR<2>_MC | NULL | NULL | outR<2>_MC.SI | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outG[2]_MC.D2 | 1176 | ? | 0 | 0 | outG[2]_MC | NULL | NULL | outG[2]_MC.SI | 2 | 9 | MC_SI_D2
 SPPTERM | 0 | IV_ZERO
 
-SRFF_INSTANCE | outR<2>_MC.REG | outR<2>_MC | 0 | 1 | 1
+SRFF_INSTANCE | outG[2]_MC.REG | outG[2]_MC | 0 | 1 | 1
 INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outR<2>_MC.D | 1228 | ? | 0 | 0 | outR<2>_MC | NULL | NULL | outR<2>_MC.XOR | 0 | 7 | ALU_F
+NODE | outG[2]_MC.D | 1174 | ? | 0 | 0 | outG[2]_MC | NULL | NULL | outG[2]_MC.XOR | 0 | 7 | ALU_F
 OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outR<2>_MC.Q | 1231 | ? | 0 | 0 | outR<2>_MC | NULL | NULL | outR<2>_MC.REG | 0 | 8 | SRFF_Q
+NODE | outG[2]_MC.Q | 1177 | ? | 0 | 0 | outG[2]_MC | NULL | NULL | outG[2]_MC.REG | 0 | 8 | SRFF_Q
 
-OUTPUT_INSTANCE | 0 | outR<2> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+OUTPUT_INSTANCE | 0 | outG[2] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
 INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outR<2>_MC.Q | 1232 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<2>_MC.Q | outR<2>_MC | 0 | 0 | MC_Q
+NODE | outG[2]_MC.Q | 1178 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[2]_MC.Q | outG[2]_MC | 0 | 0 | MC_Q
 OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outR<2> | 1233 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR<2> | 0 | 6 | OI_OUT
+NODE | outG[2] | 1179 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG[2] | 0 | 6 | OI_OUT
 
-MACROCELL_INSTANCE | NULL | outR<3>_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
+MACROCELL_INSTANCE | NULL | outG[3]_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outR<3>_MC.Q | 1238 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<3>_MC.Q | outR<3>_MC | 0 | 0 | MC_Q
+NODE | outG[3]_MC.Q | 1184 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[3]_MC.Q | outG[3]_MC | 0 | 0 | MC_Q
 
-SIGNAL_INSTANCE | outR<3>_MC.SI | outR<3>_MC | 0 | 4 | 2
+SIGNAL_INSTANCE | outG[3]_MC.SI | outG[3]_MC | 0 | 4 | 2
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outR<3>_MC.D1 | 1235 | ? | 0 | 0 | outR<3>_MC | NULL | NULL | outR<3>_MC.SI | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outG[3]_MC.D1 | 1181 | ? | 0 | 0 | outG[3]_MC | NULL | NULL | outG[3]_MC.SI | 1 | 9 | MC_SI_D1
 SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
 OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outR<3>_MC.D2 | 1236 | ? | 0 | 0 | outR<3>_MC | NULL | NULL | outR<3>_MC.SI | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outG[3]_MC.D2 | 1182 | ? | 0 | 0 | outG[3]_MC | NULL | NULL | outG[3]_MC.SI | 2 | 9 | MC_SI_D2
 SPPTERM | 0 | IV_ZERO
 
-SRFF_INSTANCE | outR<3>_MC.REG | outR<3>_MC | 0 | 1 | 1
+SRFF_INSTANCE | outG[3]_MC.REG | outG[3]_MC | 0 | 1 | 1
 INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outR<3>_MC.D | 1234 | ? | 0 | 0 | outR<3>_MC | NULL | NULL | outR<3>_MC.XOR | 0 | 7 | ALU_F
+NODE | outG[3]_MC.D | 1180 | ? | 0 | 0 | outG[3]_MC | NULL | NULL | outG[3]_MC.XOR | 0 | 7 | ALU_F
 OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outR<3>_MC.Q | 1237 | ? | 0 | 0 | outR<3>_MC | NULL | NULL | outR<3>_MC.REG | 0 | 8 | SRFF_Q
+NODE | outG[3]_MC.Q | 1183 | ? | 0 | 0 | outG[3]_MC | NULL | NULL | outG[3]_MC.REG | 0 | 8 | SRFF_Q
 
-OUTPUT_INSTANCE | 0 | outR<3> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+OUTPUT_INSTANCE | 0 | outG[3] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
 INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outR<3>_MC.Q | 1238 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<3>_MC.Q | outR<3>_MC | 0 | 0 | MC_Q
+NODE | outG[3]_MC.Q | 1184 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[3]_MC.Q | outG[3]_MC | 0 | 0 | MC_Q
 OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outR<3> | 1239 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR<3> | 0 | 6 | OI_OUT
+NODE | outG[3] | 1185 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG[3] | 0 | 6 | OI_OUT
 
-MACROCELL_INSTANCE | NULL | outR<4>_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
+MACROCELL_INSTANCE | NULL | outG[4]_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outR<4>_MC.Q | 1244 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<4>_MC.Q | outR<4>_MC | 0 | 0 | MC_Q
+NODE | outG[4]_MC.Q | 1190 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[4]_MC.Q | outG[4]_MC | 0 | 0 | MC_Q
 
-SIGNAL_INSTANCE | outR<4>_MC.SI | outR<4>_MC | 0 | 4 | 2
+SIGNAL_INSTANCE | outG[4]_MC.SI | outG[4]_MC | 0 | 4 | 2
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outR<4>_MC.D1 | 1241 | ? | 0 | 0 | outR<4>_MC | NULL | NULL | outR<4>_MC.SI | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outG[4]_MC.D1 | 1187 | ? | 0 | 0 | outG[4]_MC | NULL | NULL | outG[4]_MC.SI | 1 | 9 | MC_SI_D1
 SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
 OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outR<4>_MC.D2 | 1242 | ? | 0 | 0 | outR<4>_MC | NULL | NULL | outR<4>_MC.SI | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outG[4]_MC.D2 | 1188 | ? | 0 | 0 | outG[4]_MC | NULL | NULL | outG[4]_MC.SI | 2 | 9 | MC_SI_D2
 SPPTERM | 0 | IV_ZERO
 
-SRFF_INSTANCE | outR<4>_MC.REG | outR<4>_MC | 0 | 1 | 1
+SRFF_INSTANCE | outG[4]_MC.REG | outG[4]_MC | 0 | 1 | 1
 INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outR<4>_MC.D | 1240 | ? | 0 | 0 | outR<4>_MC | NULL | NULL | outR<4>_MC.XOR | 0 | 7 | ALU_F
+NODE | outG[4]_MC.D | 1186 | ? | 0 | 0 | outG[4]_MC | NULL | NULL | outG[4]_MC.XOR | 0 | 7 | ALU_F
 OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outR<4>_MC.Q | 1243 | ? | 0 | 0 | outR<4>_MC | NULL | NULL | outR<4>_MC.REG | 0 | 8 | SRFF_Q
+NODE | outG[4]_MC.Q | 1189 | ? | 0 | 0 | outG[4]_MC | NULL | NULL | outG[4]_MC.REG | 0 | 8 | SRFF_Q
 
-OUTPUT_INSTANCE | 0 | outR<4> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+OUTPUT_INSTANCE | 0 | outG[4] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
 INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outR<4>_MC.Q | 1244 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<4>_MC.Q | outR<4>_MC | 0 | 0 | MC_Q
+NODE | outG[4]_MC.Q | 1190 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[4]_MC.Q | outG[4]_MC | 0 | 0 | MC_Q
 OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outR<4> | 1245 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR<4> | 0 | 6 | OI_OUT
+NODE | outG[4] | 1191 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG[4] | 0 | 6 | OI_OUT
 
-MACROCELL_INSTANCE | NULL | outR<5>_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
+MACROCELL_INSTANCE | NULL | outG[5]_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outR<5>_MC.Q | 1250 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<5>_MC.Q | outR<5>_MC | 0 | 0 | MC_Q
+NODE | outG[5]_MC.Q | 1196 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[5]_MC.Q | outG[5]_MC | 0 | 0 | MC_Q
 
-SIGNAL_INSTANCE | outR<5>_MC.SI | outR<5>_MC | 0 | 4 | 2
+SIGNAL_INSTANCE | outG[5]_MC.SI | outG[5]_MC | 0 | 4 | 2
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outR<5>_MC.D1 | 1247 | ? | 0 | 0 | outR<5>_MC | NULL | NULL | outR<5>_MC.SI | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outG[5]_MC.D1 | 1193 | ? | 0 | 0 | outG[5]_MC | NULL | NULL | outG[5]_MC.SI | 1 | 9 | MC_SI_D1
 SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
 OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outR<5>_MC.D2 | 1248 | ? | 0 | 0 | outR<5>_MC | NULL | NULL | outR<5>_MC.SI | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outG[5]_MC.D2 | 1194 | ? | 0 | 0 | outG[5]_MC | NULL | NULL | outG[5]_MC.SI | 2 | 9 | MC_SI_D2
 SPPTERM | 0 | IV_ZERO
 
-SRFF_INSTANCE | outR<5>_MC.REG | outR<5>_MC | 0 | 1 | 1
+SRFF_INSTANCE | outG[5]_MC.REG | outG[5]_MC | 0 | 1 | 1
 INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outR<5>_MC.D | 1246 | ? | 0 | 0 | outR<5>_MC | NULL | NULL | outR<5>_MC.XOR | 0 | 7 | ALU_F
+NODE | outG[5]_MC.D | 1192 | ? | 0 | 0 | outG[5]_MC | NULL | NULL | outG[5]_MC.XOR | 0 | 7 | ALU_F
 OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outR<5>_MC.Q | 1249 | ? | 0 | 0 | outR<5>_MC | NULL | NULL | outR<5>_MC.REG | 0 | 8 | SRFF_Q
+NODE | outG[5]_MC.Q | 1195 | ? | 0 | 0 | outG[5]_MC | NULL | NULL | outG[5]_MC.REG | 0 | 8 | SRFF_Q
 
-OUTPUT_INSTANCE | 0 | outR<5> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+OUTPUT_INSTANCE | 0 | outG[5] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
 INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outR<5>_MC.Q | 1250 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<5>_MC.Q | outR<5>_MC | 0 | 0 | MC_Q
+NODE | outG[5]_MC.Q | 1196 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[5]_MC.Q | outG[5]_MC | 0 | 0 | MC_Q
 OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outR<5> | 1251 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR<5> | 0 | 6 | OI_OUT
+NODE | outG[5] | 1197 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG[5] | 0 | 6 | OI_OUT
 
-MACROCELL_INSTANCE | NULL | outR<6>_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
+MACROCELL_INSTANCE | NULL | outG[6]_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outR<6>_MC.Q | 1256 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<6>_MC.Q | outR<6>_MC | 0 | 0 | MC_Q
+NODE | outG[6]_MC.Q | 1202 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[6]_MC.Q | outG[6]_MC | 0 | 0 | MC_Q
 
-SIGNAL_INSTANCE | outR<6>_MC.SI | outR<6>_MC | 0 | 4 | 2
+SIGNAL_INSTANCE | outG[6]_MC.SI | outG[6]_MC | 0 | 4 | 2
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outR<6>_MC.D1 | 1253 | ? | 0 | 0 | outR<6>_MC | NULL | NULL | outR<6>_MC.SI | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outG[6]_MC.D1 | 1199 | ? | 0 | 0 | outG[6]_MC | NULL | NULL | outG[6]_MC.SI | 1 | 9 | MC_SI_D1
 SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
 OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outR<6>_MC.D2 | 1254 | ? | 0 | 0 | outR<6>_MC | NULL | NULL | outR<6>_MC.SI | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outG[6]_MC.D2 | 1200 | ? | 0 | 0 | outG[6]_MC | NULL | NULL | outG[6]_MC.SI | 2 | 9 | MC_SI_D2
 SPPTERM | 0 | IV_ZERO
 
-SRFF_INSTANCE | outR<6>_MC.REG | outR<6>_MC | 0 | 1 | 1
+SRFF_INSTANCE | outG[6]_MC.REG | outG[6]_MC | 0 | 1 | 1
 INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outR<6>_MC.D | 1252 | ? | 0 | 0 | outR<6>_MC | NULL | NULL | outR<6>_MC.XOR | 0 | 7 | ALU_F
+NODE | outG[6]_MC.D | 1198 | ? | 0 | 0 | outG[6]_MC | NULL | NULL | outG[6]_MC.XOR | 0 | 7 | ALU_F
 OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outR<6>_MC.Q | 1255 | ? | 0 | 0 | outR<6>_MC | NULL | NULL | outR<6>_MC.REG | 0 | 8 | SRFF_Q
+NODE | outG[6]_MC.Q | 1201 | ? | 0 | 0 | outG[6]_MC | NULL | NULL | outG[6]_MC.REG | 0 | 8 | SRFF_Q
 
-OUTPUT_INSTANCE | 0 | outR<6> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+OUTPUT_INSTANCE | 0 | outG[6] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
 INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outR<6>_MC.Q | 1256 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<6>_MC.Q | outR<6>_MC | 0 | 0 | MC_Q
+NODE | outG[6]_MC.Q | 1202 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[6]_MC.Q | outG[6]_MC | 0 | 0 | MC_Q
 OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outR<6> | 1257 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR<6> | 0 | 6 | OI_OUT
+NODE | outG[6] | 1203 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG[6] | 0 | 6 | OI_OUT
 
-MACROCELL_INSTANCE | NULL | outR<7>_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
+MACROCELL_INSTANCE | NULL | outG[7]_MC | battleship_COPY_0_COPY_0 | 0 | 4 | 1
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
-NODE | outR<7>_MC.Q | 1262 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<7>_MC.Q | outR<7>_MC | 0 | 0 | MC_Q
+NODE | outG[7]_MC.Q | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[7]_MC.Q | outG[7]_MC | 0 | 0 | MC_Q
 
-SIGNAL_INSTANCE | outR<7>_MC.SI | outR<7>_MC | 0 | 4 | 2
+SIGNAL_INSTANCE | outG[7]_MC.SI | outG[7]_MC | 0 | 4 | 2
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row2_II/UIM | 1203 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
+NODE | row2_II/UIM | 1149 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row2_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row1_II/UIM | 1205 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
+NODE | row1_II/UIM | 1151 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row1_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | row0_II/UIM | 1207 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
+NODE | row0_II/UIM | 1153 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | row0_II | 0 | 5 | II_IMUX
 INPUT_NODE_TYPE | 1 | 100 | NOTYPE
-NODE | N_PZ_25 | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
+NODE | N_PZ_25 | 1154 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | N_PZ_25_MC.Q | N_PZ_25_MC | 1 | 0 | MC_UIM
 OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
-SIGNAL | NODE | outR<7>_MC.D1 | 1259 | ? | 0 | 0 | outR<7>_MC | NULL | NULL | outR<7>_MC.SI | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outG[7]_MC.D1 | 1205 | ? | 0 | 0 | outG[7]_MC | NULL | NULL | outG[7]_MC.SI | 1 | 9 | MC_SI_D1
 SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
 OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
-SIGNAL | NODE | outR<7>_MC.D2 | 1260 | ? | 0 | 0 | outR<7>_MC | NULL | NULL | outR<7>_MC.SI | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outG[7]_MC.D2 | 1206 | ? | 0 | 0 | outG[7]_MC | NULL | NULL | outG[7]_MC.SI | 2 | 9 | MC_SI_D2
 SPPTERM | 0 | IV_ZERO
 
-SRFF_INSTANCE | outR<7>_MC.REG | outR<7>_MC | 0 | 1 | 1
+SRFF_INSTANCE | outG[7]_MC.REG | outG[7]_MC | 0 | 1 | 1
 INPUT_NODE_TYPE | 0 | 8 | SRFF_D
-NODE | outR<7>_MC.D | 1258 | ? | 0 | 0 | outR<7>_MC | NULL | NULL | outR<7>_MC.XOR | 0 | 7 | ALU_F
+NODE | outG[7]_MC.D | 1204 | ? | 0 | 0 | outG[7]_MC | NULL | NULL | outG[7]_MC.XOR | 0 | 7 | ALU_F
 OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
-NODE | outR<7>_MC.Q | 1261 | ? | 0 | 0 | outR<7>_MC | NULL | NULL | outR<7>_MC.REG | 0 | 8 | SRFF_Q
+NODE | outG[7]_MC.Q | 1207 | ? | 0 | 0 | outG[7]_MC | NULL | NULL | outG[7]_MC.REG | 0 | 8 | SRFF_Q
 
-OUTPUT_INSTANCE | 0 | outR<7> | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+OUTPUT_INSTANCE | 0 | outG[7] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
 INPUT_NODE_TYPE | 0 | 6 | OI_IN
-NODE | outR<7>_MC.Q | 1262 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR<7>_MC.Q | outR<7>_MC | 0 | 0 | MC_Q
+NODE | outG[7]_MC.Q | 1208 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outG[7]_MC.Q | outG[7]_MC | 0 | 0 | MC_Q
 OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
-NODE | outR<7> | 1263 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR<7> | 0 | 6 | OI_OUT
+NODE | outG[7] | 1209 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outG[7] | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | outR[0]_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | outR[0]_MC.Q | 1214 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[0]_MC.Q | outR[0]_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | outR[0]_MC.SI | outR[0]_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outR[0]_MC.D1 | 1212 | ? | 0 | 0 | outR[0]_MC | NULL | NULL | outR[0]_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outR[0]_MC.D2 | 1211 | ? | 0 | 0 | outR[0]_MC | NULL | NULL | outR[0]_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | outR[0]_MC.REG | outR[0]_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | outR[0]_MC.D | 1210 | ? | 0 | 0 | outR[0]_MC | NULL | NULL | outR[0]_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | outR[0]_MC.Q | 1213 | ? | 0 | 0 | outR[0]_MC | NULL | NULL | outR[0]_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | outR[0] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | outR[0]_MC.Q | 1214 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[0]_MC.Q | outR[0]_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | outR[0] | 1215 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR[0] | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | outR[1]_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | outR[1]_MC.Q | 1220 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[1]_MC.Q | outR[1]_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | outR[1]_MC.SI | outR[1]_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outR[1]_MC.D1 | 1218 | ? | 0 | 0 | outR[1]_MC | NULL | NULL | outR[1]_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outR[1]_MC.D2 | 1217 | ? | 0 | 0 | outR[1]_MC | NULL | NULL | outR[1]_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | outR[1]_MC.REG | outR[1]_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | outR[1]_MC.D | 1216 | ? | 0 | 0 | outR[1]_MC | NULL | NULL | outR[1]_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | outR[1]_MC.Q | 1219 | ? | 0 | 0 | outR[1]_MC | NULL | NULL | outR[1]_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | outR[1] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | outR[1]_MC.Q | 1220 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[1]_MC.Q | outR[1]_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | outR[1] | 1221 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR[1] | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | outR[2]_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | outR[2]_MC.Q | 1226 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[2]_MC.Q | outR[2]_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | outR[2]_MC.SI | outR[2]_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outR[2]_MC.D1 | 1224 | ? | 0 | 0 | outR[2]_MC | NULL | NULL | outR[2]_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outR[2]_MC.D2 | 1223 | ? | 0 | 0 | outR[2]_MC | NULL | NULL | outR[2]_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | outR[2]_MC.REG | outR[2]_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | outR[2]_MC.D | 1222 | ? | 0 | 0 | outR[2]_MC | NULL | NULL | outR[2]_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | outR[2]_MC.Q | 1225 | ? | 0 | 0 | outR[2]_MC | NULL | NULL | outR[2]_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | outR[2] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | outR[2]_MC.Q | 1226 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[2]_MC.Q | outR[2]_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | outR[2] | 1227 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR[2] | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | outR[3]_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | outR[3]_MC.Q | 1232 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[3]_MC.Q | outR[3]_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | outR[3]_MC.SI | outR[3]_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outR[3]_MC.D1 | 1230 | ? | 0 | 0 | outR[3]_MC | NULL | NULL | outR[3]_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outR[3]_MC.D2 | 1229 | ? | 0 | 0 | outR[3]_MC | NULL | NULL | outR[3]_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | outR[3]_MC.REG | outR[3]_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | outR[3]_MC.D | 1228 | ? | 0 | 0 | outR[3]_MC | NULL | NULL | outR[3]_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | outR[3]_MC.Q | 1231 | ? | 0 | 0 | outR[3]_MC | NULL | NULL | outR[3]_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | outR[3] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | outR[3]_MC.Q | 1232 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[3]_MC.Q | outR[3]_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | outR[3] | 1233 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR[3] | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | outR[4]_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | outR[4]_MC.Q | 1238 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[4]_MC.Q | outR[4]_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | outR[4]_MC.SI | outR[4]_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outR[4]_MC.D1 | 1236 | ? | 0 | 0 | outR[4]_MC | NULL | NULL | outR[4]_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outR[4]_MC.D2 | 1235 | ? | 0 | 0 | outR[4]_MC | NULL | NULL | outR[4]_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | outR[4]_MC.REG | outR[4]_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | outR[4]_MC.D | 1234 | ? | 0 | 0 | outR[4]_MC | NULL | NULL | outR[4]_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | outR[4]_MC.Q | 1237 | ? | 0 | 0 | outR[4]_MC | NULL | NULL | outR[4]_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | outR[4] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | outR[4]_MC.Q | 1238 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[4]_MC.Q | outR[4]_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | outR[4] | 1239 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR[4] | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | outR[5]_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | outR[5]_MC.Q | 1244 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[5]_MC.Q | outR[5]_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | outR[5]_MC.SI | outR[5]_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outR[5]_MC.D1 | 1242 | ? | 0 | 0 | outR[5]_MC | NULL | NULL | outR[5]_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outR[5]_MC.D2 | 1241 | ? | 0 | 0 | outR[5]_MC | NULL | NULL | outR[5]_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | outR[5]_MC.REG | outR[5]_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | outR[5]_MC.D | 1240 | ? | 0 | 0 | outR[5]_MC | NULL | NULL | outR[5]_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | outR[5]_MC.Q | 1243 | ? | 0 | 0 | outR[5]_MC | NULL | NULL | outR[5]_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | outR[5] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | outR[5]_MC.Q | 1244 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[5]_MC.Q | outR[5]_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | outR[5] | 1245 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR[5] | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | outR[6]_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | outR[6]_MC.Q | 1250 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[6]_MC.Q | outR[6]_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | outR[6]_MC.SI | outR[6]_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outR[6]_MC.D1 | 1248 | ? | 0 | 0 | outR[6]_MC | NULL | NULL | outR[6]_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outR[6]_MC.D2 | 1247 | ? | 0 | 0 | outR[6]_MC | NULL | NULL | outR[6]_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | outR[6]_MC.REG | outR[6]_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | outR[6]_MC.D | 1246 | ? | 0 | 0 | outR[6]_MC | NULL | NULL | outR[6]_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | outR[6]_MC.Q | 1249 | ? | 0 | 0 | outR[6]_MC | NULL | NULL | outR[6]_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | outR[6] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | outR[6]_MC.Q | 1250 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[6]_MC.Q | outR[6]_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | outR[6] | 1251 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR[6] | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | NULL | outR[7]_MC | battleship_COPY_0_COPY_0 | 0 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | outR[7]_MC.Q | 1256 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[7]_MC.Q | outR[7]_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | outR[7]_MC.SI | outR[7]_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | outR[7]_MC.D1 | 1254 | ? | 0 | 0 | outR[7]_MC | NULL | NULL | outR[7]_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | outR[7]_MC.D2 | 1253 | ? | 0 | 0 | outR[7]_MC | NULL | NULL | outR[7]_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | outR[7]_MC.REG | outR[7]_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | outR[7]_MC.D | 1252 | ? | 0 | 0 | outR[7]_MC | NULL | NULL | outR[7]_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | outR[7]_MC.Q | 1255 | ? | 0 | 0 | outR[7]_MC | NULL | NULL | outR[7]_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | outR[7] | battleship_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | outR[7]_MC.Q | 1256 | ? | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | outR[7]_MC.Q | outR[7]_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | outR[7] | 1257 | PO | 0 | 0 | battleship_COPY_0_COPY_0 | NULL | NULL | outR[7] | 0 | 6 | OI_OUT
 
 FB_INSTANCE | FOOBAR1_ | battleship_COPY_0_COPY_0 | 0 | 0 | 0
-FBPIN | 3 | outG<0>_MC | 1 | NULL | 0 | outG<0> | 1 | 36 | 49152
-FBPIN | 9 | outG<1>_MC | 1 | NULL | 0 | outG<1> | 1 | 34 | 53248
-FBPIN | 10 | outG<2>_MC | 1 | NULL | 0 | outG<2> | 1 | 33 | 53248
-FBPIN | 11 | outG<3>_MC | 1 | NULL | 0 | outG<3> | 1 | 32 | 53248
-FBPIN | 12 | outG<4>_MC | 1 | NULL | 0 | outG<4> | 1 | 31 | 53248
+FBPIN | 3 | outG[0]_MC | 1 | NULL | 0 | outG[0] | 1 | 36 | 49152
+FBPIN | 9 | outG[1]_MC | 1 | NULL | 0 | outG[1] | 1 | 34 | 53248
+FBPIN | 10 | outG[2]_MC | 1 | NULL | 0 | outG[2] | 1 | 33 | 53248
+FBPIN | 11 | outG[3]_MC | 1 | NULL | 0 | outG[3] | 1 | 32 | 53248
+FBPIN | 12 | outG[4]_MC | 1 | NULL | 0 | outG[4] | 1 | 31 | 53248
 FBPIN | 16 | N_PZ_25_MC | 1 | NULL | 0 | NULL | 0
 
 FB_INSTANCE | FOOBAR2_ | battleship_COPY_0_COPY_0 | 0 | 0 | 0
-FBPIN | 6 | outR<7>_MC | 1 | NULL | 0 | outR<7> | 1 | 42 | 49152
-FBPIN | 7 | outR<6>_MC | 1 | NULL | 0 | outR<6> | 1 | 43 | 57344
-FBPIN | 8 | outR<5>_MC | 1 | NULL | 0 | outR<5> | 1 | 44 | 57344
-FBPIN | 10 | outR<4>_MC | 1 | NULL | 0 | outR<4> | 1 | 1 | 57344
-FBPIN | 12 | outR<3>_MC | 1 | NULL | 0 | outR<3> | 1 | 2 | 49152
-FBPIN | 13 | outR<2>_MC | 1 | NULL | 0 | outR<2> | 1 | 3 | 49152
+FBPIN | 6 | outR[7]_MC | 1 | NULL | 0 | outR[7] | 1 | 42 | 49152
+FBPIN | 7 | outR[6]_MC | 1 | NULL | 0 | outR[6] | 1 | 43 | 57344
+FBPIN | 8 | outR[5]_MC | 1 | NULL | 0 | outR[5] | 1 | 44 | 57344
+FBPIN | 10 | outR[4]_MC | 1 | NULL | 0 | outR[4] | 1 | 1 | 57344
+FBPIN | 12 | outR[3]_MC | 1 | NULL | 0 | outR[3] | 1 | 2 | 49152
+FBPIN | 13 | outR[2]_MC | 1 | NULL | 0 | outR[2] | 1 | 3 | 49152
 
 FB_INSTANCE | FOOBAR3_ | battleship_COPY_0_COPY_0 | 0 | 0 | 0
-FBPIN | 1 | outG<5>_MC | 1 | NULL | 0 | outG<5> | 1 | 29 | 49152
-FBPIN | 2 | outG<6>_MC | 1 | NULL | 0 | outG<6> | 1 | 28 | 49152
-FBPIN | 3 | outG<7>_MC | 1 | NULL | 0 | outG<7> | 1 | 27 | 49152
+FBPIN | 1 | outG[5]_MC | 1 | NULL | 0 | outG[5] | 1 | 29 | 49152
+FBPIN | 2 | outG[6]_MC | 1 | NULL | 0 | outG[6] | 1 | 28 | 49152
+FBPIN | 3 | outG[7]_MC | 1 | NULL | 0 | outG[7] | 1 | 27 | 49152
 FBPIN | 6 | NULL | 0 | count2_II | 1 | NULL | 0 | 23 | 49152
 FBPIN | 10 | NULL | 0 | count1_II | 1 | NULL | 0 | 22 | 49152
 FBPIN | 11 | NULL | 0 | count0_II | 1 | NULL | 0 | 21 | 49152
@@ -647,8 +647,8 @@ FBPIN | 14 | NULL | 0 | col1_II | 1 | NULL | 0 | 19 | 49152
 FBPIN | 15 | NULL | 0 | col0_II | 1 | NULL | 0 | 18 | 49152
 
 FB_INSTANCE | FOOBAR4_ | battleship_COPY_0_COPY_0 | 0 | 0 | 0
-FBPIN | 1 | outR<1>_MC | 1 | NULL | 0 | outR<1> | 1 | 5 | 49152
-FBPIN | 2 | outR<0>_MC | 1 | NULL | 0 | outR<0> | 1 | 6 | 49152
+FBPIN | 1 | outR[1]_MC | 1 | NULL | 0 | outR[1] | 1 | 5 | 49152
+FBPIN | 2 | outR[0]_MC | 1 | NULL | 0 | outR[0] | 1 | 6 | 49152
 FBPIN | 11 | NULL | 0 | row0_II | 1 | NULL | 0 | 12 | 49152
 FBPIN | 13 | NULL | 0 | row1_II | 1 | NULL | 0 | 13 | 49152
 FBPIN | 14 | NULL | 0 | row2_II | 1 | NULL | 0 | 14 | 49152
@@ -663,7 +663,7 @@ CT_INSTANCE | FOOBAR3_ | FOOBAR3__ctinst | battleship_COPY_0_COPY_0 | 0 | 0 | 0
 
 CT_INSTANCE | FOOBAR4_ | FOOBAR4__ctinst | battleship_COPY_0_COPY_0 | 0 | 0 | 0
 
-PLA | FOOBAR1_ | 6
+PLA | FOOBAR1_ | 11
 PLA_TERM | 0 | 
 SPPTERM | 2 | IV_FALSE | col0_II/UIM | IV_TRUE | count0_II/UIM
 PLA_TERM | 1 | 
@@ -676,29 +676,27 @@ PLA_TERM | 4 |
 SPPTERM | 2 | IV_FALSE | col2_II/UIM | IV_TRUE | count2_II/UIM
 PLA_TERM | 5 | 
 SPPTERM | 2 | IV_TRUE | col2_II/UIM | IV_FALSE | count2_II/UIM
-
-PLA | FOOBAR2_ | 6
-PLA_TERM | 25 | 
-SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
-PLA_TERM | 28 | 
-SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
-PLA_TERM | 31 | 
-SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
-PLA_TERM | 37 | 
-SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
-PLA_TERM | 43 | 
-SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
-PLA_TERM | 46 | 
-SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
-
-PLA | FOOBAR4_ | 2
-PLA_TERM | 10 | 
-SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
-PLA_TERM | 13 | 
+PLA_TERM | 16 | 
 SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
+PLA_TERM | 34 | 
+SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
+PLA_TERM | 37 | 
+SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
+PLA_TERM | 40 | 
+SPPTERM | 4 | IV_FALSE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
+PLA_TERM | 43 | 
+SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
 
-BUSINFO | OUTG<0:7> | 8 | 0 | 1 | outG<0> | 0 | outG<1> | 1 | outG<2> | 2 | outG<3> | 3 | outG<4> | 4 | outG<5> | 5 | outG<6> | 6 | outG<7> | 7
-BUSINFO | OUTR<0:7> | 8 | 0 | 1 | outR<0> | 0 | outR<1> | 1 | outR<2> | 2 | outR<3> | 3 | outR<4> | 4 | outR<5> | 5 | outR<6> | 6 | outR<7> | 7
+PLA | FOOBAR3_ | 3
+PLA_TERM | 10 | 
+SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_FALSE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
+PLA_TERM | 13 | 
+SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_FALSE | row0_II/UIM | IV_FALSE | N_PZ_25
+PLA_TERM | 16 | 
+SPPTERM | 4 | IV_TRUE | row2_II/UIM | IV_TRUE | row1_II/UIM | IV_TRUE | row0_II/UIM | IV_FALSE | N_PZ_25
+
+BUSINFO | OUTG[0:7] | 8 | 0 | 1 | outG[0] | 0 | outG[1] | 1 | outG[2] | 2 | outG[3] | 3 | outG[4] | 4 | outG[5] | 5 | outG[6] | 6 | outG[7] | 7
+BUSINFO | OUTR[0:7] | 8 | 0 | 1 | outR[0] | 0 | outR[1] | 1 | outR[2] | 2 | outR[3] | 3 | outR[4] | 4 | outR[5] | 5 | outR[6] | 6 | outR[7] | 7
 
 IOSTD | LVCMOS18
 col0 | LVCMOS18
@@ -707,40 +705,35 @@ col2 | LVCMOS18
 count0 | LVCMOS18
 count1 | LVCMOS18
 count2 | LVCMOS18
-outG<0> | LVCMOS18
-outG<1> | LVCMOS18
-outG<2> | LVCMOS18
-outG<3> | LVCMOS18
-outG<4> | LVCMOS18
-outG<5> | LVCMOS18
-outG<6> | LVCMOS18
-outG<7> | LVCMOS18
 row2 | LVCMOS18
 row1 | LVCMOS18
 row0 | LVCMOS18
-outR<0> | LVCMOS18
-outR<1> | LVCMOS18
-outR<2> | LVCMOS18
-outR<3> | LVCMOS18
-outR<4> | LVCMOS18
-outR<5> | LVCMOS18
-outR<6> | LVCMOS18
-outR<7> | LVCMOS18
+outG[0] | LVCMOS18
+outG[1] | LVCMOS18
+outG[2] | LVCMOS18
+outG[3] | LVCMOS18
+outG[4] | LVCMOS18
+outG[5] | LVCMOS18
+outG[6] | LVCMOS18
+outG[7] | LVCMOS18
+outR[0] | LVCMOS18
+outR[1] | LVCMOS18
+outR[2] | LVCMOS18
+outR[3] | LVCMOS18
+outR[4] | LVCMOS18
+outR[5] | LVCMOS18
+outR[6] | LVCMOS18
+outR[7] | LVCMOS18
 
 
-FB_ORDER_OF_INPUTS | FOOBAR1_ | 2 | col0 | 18 | 3 | count1 | 22 | 4 | col1 | 19 | 5 | count0 | 21 | 8 | col2 | 20
-FB_ORDER_OF_INPUTS | FOOBAR1_ | 21 | count2 | 23
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 1 | N_PZ_25 | NULL | 2 | col0 | 18 | 3 | row0 | 12 | 4 | col1 | 19 | 5 | count0 | 21
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 7 | row1 | 13 | 8 | col2 | 20 | 21 | row2 | 14 | 23 | count2 | 23 | 30 | count1 | 22
 
-FB_IMUX_INDEX | FOOBAR1_ | -1 | -1 | 46 | 41 | 45 | 42 | -1 | -1 | 43 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 37 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
-
-
-FB_ORDER_OF_INPUTS | FOOBAR2_ | 1 | N_PZ_25 | NULL | 3 | row0 | 12 | 7 | row1 | 13 | 21 | row2 | 14
-
-FB_IMUX_INDEX | FOOBAR2_ | -1 | 79 | -1 | 58 | -1 | -1 | -1 | 60 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 61 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+FB_IMUX_INDEX | FOOBAR1_ | -1 | 79 | 46 | 58 | 45 | 42 | -1 | 60 | 43 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 61 | -1 | 37 | -1 | -1 | -1 | -1 | -1 | -1 | 41 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
 
 
-FB_ORDER_OF_INPUTS | FOOBAR4_ | 1 | N_PZ_25 | NULL | 3 | row0 | 12 | 7 | row1 | 13 | 21 | row2 | 14
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 1 | N_PZ_25 | NULL | 3 | row0 | 12 | 7 | row1 | 13 | 21 | row2 | 14
 
-FB_IMUX_INDEX | FOOBAR4_ | -1 | 79 | -1 | 58 | -1 | -1 | -1 | 60 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 61 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+FB_IMUX_INDEX | FOOBAR3_ | -1 | 79 | -1 | 58 | -1 | -1 | -1 | 60 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 61 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
 
 
